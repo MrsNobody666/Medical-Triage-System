@@ -1,0 +1,42 @@
+# Hindi Personal Voice AI Doctor - Dependencies
+# Core AI and ML libraries
+torch>=1.9.0
+transformers>=4.20.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Computer vision and image processing
+opencv-python>=4.5.0
+pillow>=8.3.0
+pydicom>=2.2.0
+
+# Natural language processing
+spacy>=3.4.0
+indic-nlp-library>=0.7.0
+
+# Web framework (optional for web interface)
+flask>=2.0.0
+flask-cors>=3.0.0
+
+# Speech processing (optional)
+speechrecognition>=3.8.0
+pyttsx3>=2.90.0
+
+# Security and encryption
+cryptography>=3.4.0
+
+# Report generation
+reportlab>=3.6.0
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.25.0
+
+# Development and testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Note: Some models may require additional dependencies
+# For GPU support, install torch with CUDA:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

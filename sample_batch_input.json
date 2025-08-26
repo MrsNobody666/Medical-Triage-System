@@ -1,0 +1,69 @@
+[
+  {
+    "id": "patient_001",
+    "age": 45,
+    "gender": "male",
+    "symptoms": [
+      {"hindi_term": "सीने में दर्द", "english_term": "chest pain", "urgency": "high"},
+      {"hindi_term": "सांस लेने में दिक्कत", "english_term": "difficulty breathing", "urgency": "high"}
+    ],
+    "vital_signs": {
+      "temperature": 37.2,
+      "blood_pressure": "140/90",
+      "heart_rate": 95
+    },
+    "medical_history": ["hypertension", "diabetes"],
+    "duration_hours": 6,
+    "severity_score": 8.5,
+    "xray_findings": {
+      "image_path": "chest_xray_001.jpg",
+      "findings": "mild cardiomegaly"
+    }
+  },
+  {
+    "id": "patient_002",
+    "age": 28,
+    "gender": "female",
+    "symptoms": [
+      {"hindi_term": "बुखार", "english_term": "fever", "urgency": "medium"},
+      {"hindi_term": "सिर दर्द", "english_term": "headache", "urgency": "low"}
+    ],
+    "vital_signs": {
+      "temperature": 38.8,
+      "blood_pressure": "110/70",
+      "heart_rate": 85
+    },
+    "medical_history": [],
+    "duration_hours": 24,
+    "severity_score": 4.0,
+    "lab_results": {
+      "report_path": "blood_report_002.pdf",
+      "findings": {
+        "hemoglobin": 12.5,
+        "wbc": 8500,
+        "platelets": 220000
+      }
+    }
+  },
+  {
+    "id": "patient_003",
+    "age": 65,
+    "gender": "female",
+    "symptoms": [
+      {"hindi_term": "घुटने में दर्द", "english_term": "knee pain", "urgency": "low"},
+      {"hindi_term": "सूजन", "english_term": "swelling", "urgency": "low"}
+    ],
+    "vital_signs": {
+      "temperature": 36.8,
+      "blood_pressure": "130/80",
+      "heart_rate": 72
+    },
+    "medical_history": ["arthritis", "osteoporosis"],
+    "duration_hours": 72,
+    "severity_score": 3.0,
+    "xray_findings": {
+      "image_path": "knee_xray_003.jpg",
+      "findings": "moderate osteoarthritis"
+    }
+  }
+]
